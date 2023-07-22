@@ -1,0 +1,106 @@
+
+img {
+    max-width: 100%; /* Pour s'assurer que l'image ne d�passe pas sa taille d'origine */
+    display: block; /* Pour centrer l'image horizontalement */
+    margin: 0 auto; /* Pour centrer l'image horizontalement */
+}
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+  
+    padding-right:10%;
+    padding-left:2%;
+ 
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: red;
+}
+
+
+
+
+span{
+    color: red;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin-left:50px;
+}
+
+h1{
+    text-align: center;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.726);
+    height:110px;
+    color: white;
+}
+
+main{
+    height:100vh;
+}
+
+img{
+    width:700px;
+    margin-top:2%;
+}
+
+
+
+.p{
+    text-align:center;
+  
+    font-size: 25px;
+}
+
+.imgAcceuil{
+    width:800px;
+    height: 400px;
+    background-image: url(R1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.imgsport{
+    height:400px;
+}
+
+h1{
+font-size:25px;
+}
